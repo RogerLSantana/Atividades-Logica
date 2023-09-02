@@ -1,15 +1,17 @@
-Algoritmo "semnome"
+Algoritmo "Atividade3"
 //
 //
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
-// Autor(a)    : Nome do(a) aluno(a)
+// Descri√ß√£o   : l√™ dois valores inteiros A e B ,se os valores forem iguais 
+soma os dois, caso contr√°rio multiplica A por B. Ao final de qualquer um dos c√°lculos 
+atribuio resultado para uma vari√°vel C e mostrar seu conte√∫do na tela. (fun√ß√£o)
+// Autor(a)    : Roger
 // Data atual  : 31/08/2023
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    a,b,c: inteiro
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    Escreva("Digite o valor de A: " )
    LEIA(a)
    Escreva("Digite o valor de B: ")
