@@ -1,16 +1,17 @@
 Algoritmo "semnome"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : algoritmo que lÃª os valores A, B, C e imprime na tela se a soma de A + B Ã© menor
+que C, caso contrÃ¡rio, imprime que a A + B Ã© maior que C e se for igual imprime que os valores de A e B sÃ£o iguais a C! (funÃ§Ã£o)
+// Autor(a)    : Roger
 // Data atual  : 29/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    a,b,c: real
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreva ("digite o valor de A:")
    leia(a)
    escreva ("digite o valor de B:")
@@ -22,12 +23,12 @@ Inicio
 
    limpatela
    se(a+b=c)entao
-      escreval("")
+      escreval("A+B Ã© igual a C")
            fimse
    se(a+b<c) entao
-      escreval("A + B é menor que C")
+      escreval("A + B Ã© menor que C")
       fimse
    se(a+b>c)entao
-      escreval("A + B é maior que C")
+      escreval("A + B Ã© maior que C")
    fimse
 Fimalgoritmo
