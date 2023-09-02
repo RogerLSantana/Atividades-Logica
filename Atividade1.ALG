@@ -3,7 +3,7 @@ Algoritmo "semnome"
 //
 // Descrição   : algoritmo que lê os valores A, B, C e imprime na tela se a soma de A + B é menor
 que C, caso contrário, imprime que a A + B é maior que C e se for igual imprime que os valores de A e B são iguais a C! (função)
-// Autor(a)    : Roger
+// Autor(a)    : Roger Luís
 // Data atual  : 29/08/2023
 Var
    // Seção de Declarações das variáveis
