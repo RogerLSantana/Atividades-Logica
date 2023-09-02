@@ -1,11 +1,11 @@
 Algoritmo "semnome"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 31/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    morango,maca:inteiro
    valorTotal: real
    macatotal:real
@@ -14,10 +14,10 @@ Var
    ValorDesconto:real
    valorComDesconto:real
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreva("Digite a quantidade de morangos comprados em KG: ")
    leia(morango)
-   escreva("Digite a quantidade de maças compradas em KG: ")
+   escreva("Digite a quantidade de maÃ§as compradas em KG: ")
    leia(maca)
 
    limpatela
@@ -39,17 +39,13 @@ Inicio
    frutaTotal<-morango + maca
 
    escreval("Morango: "  ,morango," KG")
-   escreval("Maça: ",maca ," KG" )
+   escreval("MaÃ§a: ",maca ," KG" )
    escreval("Valor a ser pago: ",ValorTotal)
-   se(ValorTotal>25) ou (frutaTotal>8)entao
+   se(ValorTotal>25) ou (frutaTotal>=8)entao
       ValorDesconto   <-(morangototal + macatotal) * 0.1
-      escreval("Valor do desconto desconto:",ValorDesconto)
-   fimse
-   se(maca>5)entao
-      valorComDesconto<-ValorTotal-ValorDesconto
-      escreval("Valor do Desconto",ValorComDesconto)
-   senao
-      escreval("")
+      escreval("Valor do desconto :",ValorDesconto)
+   valorComDesconto<-ValorTotal-ValorDesconto
+      escreval("Valor Final com Desconto:",ValorComDesconto)
    fimse
 
 Fimalgoritmo
