@@ -1,15 +1,17 @@
 Algoritmo "atividade2"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : lÃª o nome, o sexo e o estado civil de uma pessoa. Caso sexo seja â€œFâ€ e
+estado civil seja â€œCASADAâ€, solicita o tempo de casada (anos). Por fim, mostra os dados do
+usuÃ¡rio!. (funÃ§Ã£o)
+// Autor(a)    : Roger Luis
 // Data atual  : 31/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nome,sexo, EstadoCivil,TempoDeCasada: Caracter
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreva("Digite seu nome:")
    leia(nome)
    escreva("Digite seu sexo( M ou F ):")
