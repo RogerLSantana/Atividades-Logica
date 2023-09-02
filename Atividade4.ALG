@@ -1,8 +1,9 @@
 Algoritmo "semnome"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Descrição   : lê a quantidade (em Kg) de morangos e a quantidade (em Kg) de maças adquiridas e escreva o valor
+a ser pago pelo cliente. (função)
+// Autor(a)    : Roger Luís
 // Data atual  : 31/08/2023
 Var
    // Seção de Declarações das variáveis
