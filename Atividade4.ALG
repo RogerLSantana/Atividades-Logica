@@ -41,12 +41,12 @@ Inicio
 
    escreval("Morango: "  ,morango," KG")
    escreval("Maça: ",maca ," KG" )
-   escreval("Valor a ser pago: ",ValorTotal)
+   escreval("Valor a ser pago:R$ ",ValorTotal)
    se(ValorTotal>25) ou (frutaTotal>=8)entao
       ValorDesconto   <-(morangototal + macatotal) * 0.1
-      escreval("Valor do desconto :",ValorDesconto)
+      escreval("Valor do desconto: R$",ValorDesconto)
    valorComDesconto<-ValorTotal-ValorDesconto
-      escreval("Valor Final com Desconto:",ValorComDesconto)
+      escreval("Valor Final com Desconto: R$",ValorComDesconto)
    fimse
 
 Fimalgoritmo
